@@ -1,0 +1,129 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 7% 180px;
+}
+
+hr {
+    width: 20%;
+    height: 5px;
+    padding-top: 0.5%;
+    margin-top: 2%;
+    border: none;
+    background: white;
+}
+
+#done {
+    background: #27AE60;
+}
+
+li {
+    height: 30px;
+    width: 190px;
+    text-align: center;
+    align-items: center;
+    padding-top: 5%;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#live {
+    background: #27AE60;
+    color: white;
+}
+
+#no-live {
+    background: white;
+    color: black;
+
+}
+
+body {
+    background:
+        linear-gradient(to bottom, rgba(196, 102, 0, 0.2), rgba(155, 89, 182, 0.2)),
+        url('gs.png');
+    background-repeat: no-repeat;
+    height: 97.6vh;
+}
+form {
+    border: none;
+    height: 65vh;
+    width: 50vw;
+    margin-left: 23%;
+    margin-top: -4%;
+    box-shadow: 0 0 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+select {
+    width: 44.2%;
+    height: 35px;
+    padding-left: 20px;
+    font-family: monospace;
+    font-size: large;    
+}
+
+label {
+    font-family: monospace;
+    font-size: large;
+}
+
+
+input {
+    width: 40%;
+    height: 35px;
+    padding-left: 20px;
+    font-family: monospace;
+    font-size: large;
+}
+
+button {
+    width: 20%;
+    height: 9%;
+    background: #27AE60;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    transition: .3s all;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    border: 2px solid black;
+}
+
+/* Style the custom checkbox */
+.custom-checkbox {
+    display: inline-block;
+    width: 5%;
+    height: 4%;
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+/* Style the checked state */
+.custom-checkbox.checked {
+    background-color: #007bff;
+}
+
+/* Style the checkmark */
+.custom-checkbox::after {
+    content: "";
+    display: none;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* Show the checkmark when checkbox is checked */
+.custom-checkbox.checked::after {
+    display: block;
+}
